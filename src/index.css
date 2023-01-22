@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.top{
+    position: absolute;
+    top: -90vh;
+    left: -40vh;
+    z-index: -1;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(185, 75%, 39%);
+    overflow: hidden;
+    height: 100vh;
+}
+
+.contenedor{
+    background: #FFF;
+    width: 350px;
+    height: 371px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.card-top img{
+    width: 350px;
+    border-radius: 15px 15px 0 0;
+    display: block;
+}
+.card-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+
+
+}
+.perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
+    position: relative;
+    top: -55px;
+    border-radius: 50%;
+    background: #fff;
+    
+}
+.fondo{
+    height: auto;
+}
+.perfil img{
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    position: relative;
+}
+.texto{
+    border-bottom: 0.5px solid lightgray;
+    position: relative;
+    top: -55px;
+    padding: 10px 10px 25px 10px;
+}
+.info{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.name{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 4px;
+}
+.age{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: gray;
+    margin: 4px;
+}
+.texto p{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 4px;
+}
+.stats{
+    display: flex;
+    height: auto;
+    font-family: 'Kumbh Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+    position: relative;
+    top: -55px;
+    padding: 19px;
+    text-align: center;
+}
+.stats div{
+    margin: auto 25px;
+}
+.stats h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.stats p{
+    font-size: 11px;
+    color: gray;
+    letter-spacing: 1px;
+}
+.bottom{
+    position: absolute;
+    bottom: -90vh;
+    right: -40vh;
+    z-index: -1;
+}
